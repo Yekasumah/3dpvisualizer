@@ -2,12 +2,6 @@ import streamlit as st
 from st_speckmol import spec_plot 
 import glob
 import pandas as pd
-import subprocess
-import os
-import base64
-import plotly.express as px
-import io
-import py3Dmol
 
 st.markdown(
     ''' # 3D Structure Visualization Tool using Speckmol
